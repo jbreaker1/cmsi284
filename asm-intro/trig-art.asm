@@ -10,7 +10,7 @@ printx:	db	" X", 10, 0
 pi:     dq      3.141592653589793 
 delta:  dq      18.0            ; One line moves pi/delta radians. 
 two:    dq      2.0             ; For two pi. 
-width:	dq	20.0		; width. I used 20 because my terminal was small.
+width:	dq	20.0		; width
 main:   push    rbp 
         mov     rdi, header     ; Print a header. 
         xor     rax, rax 
