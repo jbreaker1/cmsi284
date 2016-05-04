@@ -4,8 +4,7 @@
 #include "reverse-words.h"
 #include <stdlib.h>
 
-int main()
-{
+int main() {
 	char test1[] = "Hello my friends!";
 	reverse_words(test1);
 	assert(strcmp("friends! my Hello",test1) == 0);
