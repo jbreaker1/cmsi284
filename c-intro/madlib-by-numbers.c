@@ -4,6 +4,10 @@
 #include <ctype.h>
 char* madlib_by_numbers(char* template, int word_count, char* words[])
 {
+	if(word_count == 0)
+	{
+		return template;
+	}
 	int malloclength = 0;
 	for (int i = 0; i < word_count; ++i)
 	{
